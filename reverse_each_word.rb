@@ -6,12 +6,11 @@
  
  def reverse_each_word(string)
    
- #my_array = string.split
+ my_array = string.split(",")
  
- my_array.split.collect do {|word| word.reverse}.join(" ")
- 
+ my_array.collect {|word| word.reverse}.join(" ")
  end
- # my_array
+ my_array
  end 
    
    
