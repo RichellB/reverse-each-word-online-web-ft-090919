@@ -8,7 +8,7 @@
    
 # my_array = string.split(",")
  
- my_array.split.collect {|word| word.reverse}.join(" ")
+ string.split.collect {|word| word.reverse}.join(" ")
  #my_array
  end 
    
