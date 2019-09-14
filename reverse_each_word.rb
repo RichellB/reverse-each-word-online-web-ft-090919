@@ -5,11 +5,9 @@
  
  
  def reverse_each_word(string)
-   
-# my_array = string.split(",")
  
- string.split.collect {|word| word.reverse}.join(" ")
- #my_array
+ new_string = string.split
+ new_string.collect {|word| word.reverse}.join(" ")
  end 
    
    
