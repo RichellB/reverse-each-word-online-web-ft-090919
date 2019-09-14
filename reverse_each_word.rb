@@ -2,6 +2,7 @@
    string.each do |word|
    word.reverse.split.reverse.join(" ")
  end
+ end
  
  
  
