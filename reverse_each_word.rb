@@ -9,7 +9,7 @@
  my_array = string.split(",")
  
  my_array.collect {|word| word.reverse}.join(" ")
- #my_array
+ my_array
  end 
    
    
